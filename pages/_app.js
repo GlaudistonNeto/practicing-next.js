@@ -7,7 +7,7 @@ function MyApp({ Component, pageProps }) {
     <MainContainer>
       <Component {...pageProps} />
     </MainContainer>
-  );
+  )
 }
 
 export default MyApp

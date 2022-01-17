@@ -1,12 +1,14 @@
-import Link from 'next/link'
+import Head from 'next/head'
 
 export default function Contact() {
   return (
     <>
-      <h1>Contact Page</h1>
-      <Link href="/">
-        <a>Back</a>
-      </Link>
+      <Head>
+        <title>Contact Page</title>
+      </Head>
+      <div>
+        <h1>Contact Page</h1>
+      </div>
     </>
   );
 }

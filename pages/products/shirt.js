@@ -1,5 +1,3 @@
 export default function Shirt() {
-  return (
-    <h1>Shirt - $: 5.00</h1>
-  );
+  return <h1>Camisa - R$19,99</h1>
 }
